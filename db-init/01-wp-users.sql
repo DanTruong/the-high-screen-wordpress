@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: db:3306
--- Generation Time: Sep 06, 2026 at 04:45 AM
+-- Generation Time: Sep 06, 2026 at 02:33 PM
 -- Server version: 12.3.3-MariaDB-ubu2404
 -- PHP Version: 8.3.26
 
@@ -45,7 +45,7 @@ CREATE TABLE `wp_users` (
 --
 
 INSERT INTO `wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
-(1, 'admin', '$wp$2y$10$QpY0iH0siy9S4K9JZlac6eK/bNCSFAiUs/pEyO.3WYZmCdWW53c8u', 'admin', 'test@gmail.com', 'http://localhost:8080', '2026-08-26 19:11:52', '', 0, 'admin'),
+(1, 'admin', '$wp$2y$10$BQxuFYDogf0gTKI/v8aY.eWWWPRPGa.znlaed/mjkOZa9OAe64xJS', 'admin', 'test@gmail.com', 'http://localhost:8080', '2026-09-06 05:39:26', '', 0, 'admin'),
 (10, 'taylornigrelli', '!', 'taylornigrelli', 'taylornigrelli@ths.us', '', '2014-09-01 00:00:00', '', 0, 'Taylor Nigrelli'),
 (11, 'elliottaltland', '!', 'elliottaltland', 'elliottaltland@ths.us', '', '2014-10-06 00:00:00', '', 0, 'Elliott Altland'),
 (12, 'taylorpangman', '!', 'taylorpangman', 'taylorpangman@ths.us', '', '2014-09-01 00:00:00', '', 0, 'Taylor Pangman'),

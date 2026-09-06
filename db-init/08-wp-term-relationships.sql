@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: db:3306
--- Generation Time: Sep 06, 2026 at 04:45 AM
+-- Generation Time: Sep 06, 2026 at 02:32 PM
 -- Server version: 12.3.3-MariaDB-ubu2404
 -- PHP Version: 8.3.26
 
@@ -39,12 +39,6 @@ CREATE TABLE `wp_term_relationships` (
 
 INSERT INTO `wp_term_relationships` (`object_id`, `term_taxonomy_id`, `term_order`) VALUES
 (1, 1, 0),
-(5, 1, 0),
-(6, 4, 0),
-(10, 1, 0),
-(12, 1, 0),
-(13, 1, 0),
-(16, 1, 0),
 (25, 7, 0),
 (26, 7, 0),
 (27, 7, 0),
@@ -275,7 +269,8 @@ INSERT INTO `wp_term_relationships` (`object_id`, `term_taxonomy_id`, `term_orde
 (252, 5, 0),
 (253, 5, 0),
 (254, 5, 0),
-(255, 5, 0);
+(255, 5, 0),
+(486, 9, 0);
 
 --
 -- Indexes for dumped tables

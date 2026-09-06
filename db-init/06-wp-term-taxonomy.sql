@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: db:3306
--- Generation Time: Sep 06, 2026 at 04:45 AM
+-- Generation Time: Sep 06, 2026 at 02:32 PM
 -- Server version: 12.3.3-MariaDB-ubu2404
 -- PHP Version: 8.3.26
 
@@ -42,11 +42,11 @@ CREATE TABLE `wp_term_taxonomy` (
 
 INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `description`, `parent`, `count`) VALUES
 (1, 1, 'category', '', 0, 0),
-(4, 4, 'wp_theme', '', 0, 1),
 (5, 5, 'category', '', 0, 1),
 (6, 6, 'category', '', 0, 1),
 (7, 7, 'category', '', 0, 1),
-(8, 8, 'category', '', 0, 1);
+(8, 8, 'category', '', 0, 1),
+(9, 9, 'wp_theme', '', 0, 1);
 
 --
 -- Indexes for dumped tables
@@ -68,7 +68,7 @@ ALTER TABLE `wp_term_taxonomy`
 -- AUTO_INCREMENT for table `wp_term_taxonomy`
 --
 ALTER TABLE `wp_term_taxonomy`
-  MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

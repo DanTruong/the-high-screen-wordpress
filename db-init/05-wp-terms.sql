@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: db:3306
--- Generation Time: Sep 06, 2026 at 04:44 AM
+-- Generation Time: Sep 06, 2026 at 02:32 PM
 -- Server version: 12.3.3-MariaDB-ubu2404
 -- PHP Version: 8.3.26
 
@@ -40,11 +40,11 @@ CREATE TABLE `wp_terms` (
 
 INSERT INTO `wp_terms` (`term_id`, `name`, `slug`, `term_group`) VALUES
 (1, 'Uncategorized', 'uncategorized', 0),
-(4, 'twentytwentyfive', 'twentytwentyfive', 0),
 (5, 'The Buckets Blog', 'the-buckets-blog', 0),
 (6, 'Show Don\'t Tell', 'show-dont-tell', 0),
 (7, 'Features', 'features', 0),
-(8, 'Editorial', 'editorial', 0);
+(8, 'Editorial', 'editorial', 0),
+(9, 'twentytwentyfive', 'twentytwentyfive', 0);
 
 --
 -- Indexes for dumped tables
@@ -66,7 +66,7 @@ ALTER TABLE `wp_terms`
 -- AUTO_INCREMENT for table `wp_terms`
 --
 ALTER TABLE `wp_terms`
-  MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

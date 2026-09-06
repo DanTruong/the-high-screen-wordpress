@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: db:3306
--- Generation Time: Sep 06, 2026 at 04:45 AM
+-- Generation Time: Sep 06, 2026 at 02:32 PM
 -- Server version: 12.3.3-MariaDB-ubu2404
 -- PHP Version: 8.3.26
 
@@ -55,10 +55,9 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (14, 1, 'wp_user_level', '10'),
 (15, 1, 'dismissed_wp_pointers', ''),
 (16, 1, 'show_welcome_panel', '1'),
-(17, 1, 'session_tokens', 'a:1:{s:64:\"372ea830974eda64d024b8d798528eed1e87f645008e9feebb6ec7d295ca3122\";a:4:{s:10:\"expiration\";i:1788837390;s:2:\"ip\";s:12:\"192.168.65.1\";s:2:\"ua\";s:80:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0\";s:5:\"login\";i:1788664590;}}'),
-(18, 1, 'wp_dashboard_quick_press_last_post_id', '4'),
-(19, 1, 'community-events-location', 'a:1:{s:2:\"ip\";s:12:\"192.168.65.0\";}'),
-(20, 1, 'wp_persisted_preferences', 'a:4:{s:4:\"core\";a:1:{s:26:\"isComplementaryAreaVisible\";b:0;}s:14:\"core/edit-post\";a:1:{s:12:\"welcomeGuide\";b:0;}s:9:\"_modified\";s:24:\"2026-09-06T03:16:41.486Z\";s:14:\"core/edit-site\";a:1:{s:12:\"welcomeGuide\";b:0;}}'),
+(17, 1, 'session_tokens', 'a:2:{s:64:\"07c75034b2a6b9227d99627b7ee60b6e3a9004aaa1bd07503d5d4425dcf2a40d\";a:4:{s:10:\"expiration\";i:1788846063;s:2:\"ip\";s:12:\"192.168.65.1\";s:2:\"ua\";s:80:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0\";s:5:\"login\";i:1788673263;}s:64:\"29214d1ec2a4040b75396ae64f924bf4ccb93f1cafaf832635da99c0b94b8b8b\";a:4:{s:10:\"expiration\";i:1788877336;s:2:\"ip\";s:10:\"172.18.0.1\";s:2:\"ua\";s:80:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:155.0) Gecko/20100101 Firefox/155.0\";s:5:\"login\";i:1788704536;}}'),
+(18, 1, 'wp_dashboard_quick_press_last_post_id', '5'),
+(19, 1, 'community-events-location', 'a:1:{s:2:\"ip\";s:10:\"172.18.0.0\";}'),
 (50, 10, 'nickname', 'taylornigrelli'),
 (51, 10, 'first_name', 'Taylor'),
 (52, 10, 'last_name', 'Nigrelli'),
